@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  color: rgb(3, 155, 229);
+  line-height: normal;
+  font-variant: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #039be5;
+}
+.App {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.control-bluebtn .bluebtn {
+  margin-right: 10px!important;
+  margin-bottom: 5px;
+}

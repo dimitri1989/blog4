@@ -1,0 +1,121 @@
+.comments-h2{
+  font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+}
+.comments{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.comments form{
+    width: 60%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.comments input[type=submit]{
+    width: 20%;
+    text-align: center; 
+}
+.comments input[type=email],[type=text]{
+    width: 100%;
+    outline: none;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+    border: 1px solid rgb(3, 155, 229);
+}
+.comments .divlabel{
+    width: 30%;
+    outline: none;
+    height: 35px;
+    text-align: start;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+.comments textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(3, 155, 229);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    margin-bottom: 10px;
+    
+  }
+  .input-forms{
+    margin-bottom: 50px!important;
+  }
+  .coment-list-autor{
+    display: flex;
+    align-items: center
+  }
+  .comment-info-h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  .comment-info-h3{
+    line-height: 20px;
+    font-size: 12px;
+    color: #888888;
+  }
+  .comment-info-text{
+    font-size: 1.0rem;
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.88;
+    width: 85%;
+  }
+.comment-list{
+    width: 75%;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-radius: 9px;
+    transition: 1s;
+    position: relative;
+}
+.comment-list:hover{
+  width: 75%;
+  margin-bottom: 20px;
+  background-color: #f6e7e7;
+  border-radius: 9px;
+  transition: 1s;
+}
+.autor-img2{
+  margin-top: 29px;
+}
+.comment-info{
+  width: 100%;
+}
+.delete-btn-comment{
+  position: absolute;
+  right: 50px;
+  top:20px;
+  color: rgb(3, 155, 229);
+  outline: 0;
+  border: 0;
+  font-size: 30px;
+  transition: 1s;
+  background: none;
+}
+.delete-btn-comment:hover{
+
+  color: rgb(5, 50, 72);
+  outline: 0;
+  border: 0;
+  transition: 1s;
+  font-size: 30px;
+}

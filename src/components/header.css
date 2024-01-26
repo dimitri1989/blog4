@@ -1,0 +1,64 @@
+.header{
+
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; /* Only centers horizontally not vertically! */
+    height: 80px;
+}
+@keyframes scrol {
+    0% {opacity: 0.1;}
+    50% {opacity: 0.50;}
+    100% {opacity: 1;}
+  }
+  @keyframes scrolout {
+    0% {opacity: 1;}
+    50% {opacity: 0.50;}
+    100% {opacity: 0;}
+  }
+.header-container{
+    position: fixed;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto; /* Only centers horizontally not vertically! */
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: 200;
+    height: 70px;
+    background-color:rgb(3, 155, 229);
+}
+
+.scroll{
+    animation-name: scrol;
+    animation-duration: 1s;
+    z-index: 50;
+    max-width: 100%;
+}
+
+.navbar-expand-lg {
+
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+.header .nav-link{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-right: 20px;
+}
+.header  .nav-link.active{
+    background:none;
+    color: rgb(255, 255, 255);
+}
+.header .nav-link:hover{
+    background-color: rgba(149, 93, 93, 0.533)
+}
+.navbar-brand{
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}

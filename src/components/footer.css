@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.foter-logo{
+    color:#545454;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.foter-created{
+    color:#545454;
+}

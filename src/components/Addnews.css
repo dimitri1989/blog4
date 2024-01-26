@@ -1,0 +1,24 @@
+.changeNews-sectionPosition {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background: #f8f8f8;
+    top: 149px;
+    
+}
+.add-post{
+    width: 100%;
+    height: 500px;
+    min-height: 500px;
+}
+.add-post input{
+    width: 100%;
+    border: 1px solid rgb(3, 155, 229);
+    outline: none;
+}
+.add-post input[type='text']{
+    padding-left: 10px;
+}
+.quill {
+    height: 30%;
+}

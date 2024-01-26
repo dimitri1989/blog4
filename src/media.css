@@ -1,0 +1,133 @@
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  .header .nav-link{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0)!important;
+    position: relative;
+    margin-right: 20px;
+    font-size: 30px;
+    z-index: 500;
+   
+}
+.text-slider-title{
+  font-size: 35px!important;
+}
+.news-content-title{
+  font-size: 35px!important;
+}
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .img-Hide {
+    display: none;
+  }
+  .bg-text{
+    display: none;
+  }
+  /*carusel*/
+  .bg-text-slider {
+    font-size: 380px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    margin: 0;
+    z-index: 0;
+    top: 50%;
+    right: 50%;
+    left: 20%;
+    top: -290%;
+}
+.news-content-title {
+  font-size: 4rem;
+  position: relative;
+  z-index: 2;
+  top:-30px;
+}
+.carousel-caption h5{
+  color: #fff;
+  font-size: 1.3rem;
+  position: relative;
+  top:-25px;
+}
+  /*end carusel*/
+}
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+  .input-forms{
+    flex-direction: column;
+   
+  }
+  .foter-created {
+
+    text-align: center;
+}
+  .quill{
+    margin-bottom: 60px;
+}
+  .show-more {
+
+    margin-left: 20%;
+  
+}
+  .text-slider-title{
+    font-size: 20px!important;
+  }
+  .news-content-title{
+    font-size: 20px!important;
+  }
+  .comments label{
+    width: 100%!important;
+    outline: none;
+    height: 35px;
+    text-align: start;
+    padding-bottom: 10px;
+  
+}
+.control-bluebtn{
+  display: flex;
+  flex-direction: column;
+}
+.control-bluebtn .bluebtn{
+  margin-right: 0!important;
+  margin-bottom: 10px;
+  width: 100%!important;
+}
+.classedit{
+  width: 100%;
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 305px) {
+  .container {
+    width: 100%;
+  }
+  .fa-brands{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 268px) {
+  .container {
+    width: 100%;
+  }
+}
